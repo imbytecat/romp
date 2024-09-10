@@ -1,0 +1,24 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+.ant-tabs-nav {
+  margin-bottom: 0 !important;
+}
+
+.ant-tabs-content {
+  height: 100%;
+}
+
+.ant-tabs-content > .ant-tabs-tabpane {
+  height: 100%;
+}
+
+.active-row {
+  background-color: #d3e3fd;
+}
+
+.ant-table-tbody > .active-row:hover > .ant-table-cell {
+  background-color: #d3e3fd;
+}
